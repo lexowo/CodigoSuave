@@ -1,0 +1,57 @@
+body
+{
+    font-family: 'Shadows Into Light', cursive;
+    color: indigo;
+
+}
+h2
+{
+    font-family:'Noto Sans', sans-serif;
+    text-decoration: underline;
+    background-color: hotpink;
+    color: indigo;
+    font-size: 30px;
+}
+p
+{
+    font-family: 'Shadows Into Light', cursive;
+    color: indigo;
+    background-color: hotpink;
+    padding: 15px 15px;
+    text-align: justify;
+
+}
+nav ul{
+    background-color:hotpink;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px 15px;
+    font-size: 30px;
+}
+section{
+    font-family: 'Shadows Into Light', cursive;
+    color: indigo;
+    background-color: hotpink;
+}
+
+footer
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: springgreen;
+
+}
+
+#NavInicio
+{
+     font-size: 30px;
+}
+#SecH3
+{
+    font-family:'Noto Sans', sans-serif;
+    font-size: 30px;
+}
+.negrita
+{
+    font-weight: bold;
+    text-decoration: underline;
+}

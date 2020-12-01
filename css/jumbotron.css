@@ -1,0 +1,101 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body 
+{
+  font-family: 'Shadows Into Light', cursive;
+  background-color: #bdbffa;
+  font-size: 35px;
+  text-align: justify;
+}
+h3, h4
+{
+    font-family:'Noto Sans', sans-serif;
+    text-decoration: underline;
+    color: indigo;
+    font-size: 30px;
+    text-align: center;
+}
+h1
+{
+  font-family:'Noto Sans', sans-serif;
+    text-decoration: underline;
+    color: indigo;
+    font-size: 30px;
+}
+h2
+{
+    font-family:'Noto Sans', sans-serif;
+    text-decoration: underline;
+    color: indigo;
+    font-size: 30px;
+    text-align: center;
+}
+#Boton
+{
+  background-color: indigo;
+  color: aqua;
+}
+#TextoEncima
+{
+  font-size: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  position: absolute;
+  top: 100px;
+  left: 10px;
+  padding-right: 20px;
+  padding-left: 15px;
+  color:rgb(222, 234, 240);
+  text-shadow: .5px  0px 0px rgb(170, 170, 170),
+               0px  .5px 0px rgb(170, 170, 170),
+              -.5px  0px 0px rgb(170, 170, 170),
+               0px -.5px 0px rgb(170, 170, 170);
+}
+#ImagenFondo
+{
+  filter: brightness(80%)
+  
+}
+#ParteSuperior
+{
+  background-color: #b1a9ff;
+}
+#Facebook
+{
+  width: 64px;
+  height: 64px;
+  background: url(..//images/spriteimages.png) 0 0;
+}
+#Facebook:hover
+{
+  width: 64px;
+  height: 64px;
+  background: url(..//images/spriteimages.png) 0 -64px;
+}
+#Twiter
+{
+  width: 64px;
+  height: 64px;
+  background: url(..//images/spriteimages.png) -64px 0;
+}
+#Twiter:hover
+{
+  width: 64px;
+  height: 64px;
+  background: url(..//images/spriteimages.png) -64px -64px;
+}
+#YouTube
+{
+  width: 64px;
+  height: 64px;
+  background: url(..//images/spriteimages.png) 192px 0;
+}
+#YouTube:hover
+{
+  width: 64px;
+  height: 64px;
+  background: url(..//images/spriteimages.png) 192px -64px;
+}
+#navbar
+{
+  background-color: transparent !important; 
+  font-family: 'Ubuntu', sans-serif;
+}
